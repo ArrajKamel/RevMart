@@ -1,0 +1,92 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.auth-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 360px;
+}
+
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.auth-card input[type="email"],
+.auth-card input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-card label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-card label input {
+  margin-right: 0.5rem;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  background-color: #0056b3;
+}
+
+.auth-card .toggle {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.auth-card .error-message {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+/* src/styles/AuthForm.css */
+.hello-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.hello-container h1 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.hello-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
