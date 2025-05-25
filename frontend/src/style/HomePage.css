@@ -1,0 +1,66 @@
+.home-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;  /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+  }
+  
+  
+  .features-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .feature-card {
+    color: white; 
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .feature-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
